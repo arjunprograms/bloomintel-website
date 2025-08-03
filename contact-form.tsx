@@ -9,7 +9,6 @@ import { Textarea } from "./ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import { X, Send, CheckCircle, AlertTriangle } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
 
 interface ContactFormProps {
   onClose: () => void
@@ -96,7 +95,7 @@ export function ContactForm({ onClose }: ContactFormProps) {
               <X className="h-4 w-4" />
             </Button>
 
-            <Link href="/" className="flex justify-center mb-4">
+            <button onClick={onClose} className="flex justify-center mb-4 cursor-pointer">
               <Image
                 src="/images/bloom-intel-logo.png"
                 alt="BloomIntel Logo"
@@ -104,7 +103,7 @@ export function ContactForm({ onClose }: ContactFormProps) {
                 height={512}
                 className="h-24 w-auto"
               />
-            </Link>
+            </button>
 
             <CardTitle className="text-2xl font-thin">Book Your Free Consultation</CardTitle>
           </CardHeader>
