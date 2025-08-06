@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     shortcut: '/images/bloom-intel-logo.png',
     apple: '/images/bloom-intel-logo.png',
   },
+  verification: {
+    google: 'HMRThg9tGm7oRKj-Klu1kQqW-9Ja_mL-jst9K58Cs4I'
+  }
 }
 
 export default function RootLayout({
