@@ -14,7 +14,10 @@ export const metadata: Metadata = {
   title: "BloomIntel - AI Automation & IT Solutions",
   description:
     "Transform your business with AI automation, comprehensive IT support, and custom software solutions designed to scale with your growth.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  verification: {
+    google: 'HMRThg9tGm7oRKj-Klu1kQqW-9Ja_mL-jst9K58Cs4I'
+  }
 }
 
 export default function RootLayout({
