@@ -112,7 +112,7 @@ export function FooterSection({ onBookConsultation }: FooterSectionProps) {
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span className="text-sm font-light text-muted-foreground">San Francisco, CA</span>
+                <span className="text-sm font-light text-muted-foreground">Ontario, CA</span>
               </li>
             </ul>
           </div>
