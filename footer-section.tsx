@@ -23,7 +23,7 @@ export function FooterSection({ onBookConsultation }: FooterSectionProps) {
                 className="h-20 w-auto"
               />
             </Link>
-            <p className="text-sm font-light text-muted-foreground">AI Automation & IT Solutions for Every Business</p>
+            <p className="text-sm font-light text-muted-foreground">We Build AI That Thinks Like You Do</p>
           </div>
 
           <div className="space-y-4">
@@ -119,7 +119,7 @@ export function FooterSection({ onBookConsultation }: FooterSectionProps) {
         </div>
 
         <div className="border-t border-border/40 mt-8 pt-8 text-center">
-          <p className="text-sm font-light text-muted-foreground">© 2024 BloomIntel. All rights reserved.</p>
+                      <p className="text-sm font-light text-muted-foreground">© 2025 BloomIntel. All rights reserved.</p>
         </div>
       </div>
     </footer>

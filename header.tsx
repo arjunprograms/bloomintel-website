@@ -98,7 +98,7 @@ export function Header({ onBookConsultation }: HeaderProps) {
                   FAQs
                 </button>
                 <Button onClick={onBookConsultation} className="mt-4 font-light">
-                  Book Consultation
+                  Book AI Strategy Session
                 </Button>
               </div>
             </div>
@@ -116,8 +116,8 @@ export function Header({ onBookConsultation }: HeaderProps) {
           </Link>
           <nav className="flex items-center">
             <Button onClick={onBookConsultation} className="font-light">
-              Book Consultation
-            </Button>
+                              Book AI Strategy Session
+              </Button>
           </nav>
         </div>
       </div>

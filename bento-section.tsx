@@ -5,21 +5,21 @@ export function BentoSection() {
   const solutions = [
     {
       icon: <Bot className="h-8 w-8 text-primary" />,
-      title: "AI Automation",
-      description: "Streamline workflows and reduce manual tasks with intelligent automation.",
-      metric: "Average 40% cost reduction",
+      title: "Autonomous Business Agents",
+      description: "Deploy AI workers that handle complex workflows, make decisions, and optimize operations 24/7.",
+      metric: "Average 70% reduction in manual tasks",
     },
     {
       icon: <Wrench className="h-8 w-8 text-primary" />,
-      title: "IT Support",
-      description: "Reliable, 24/7 IT support to ensure your systems are always running smoothly.",
-      metric: "99.9% uptime guarantee",
+      title: "Predictive Infrastructure",
+      description: "Self-monitoring systems that prevent problems, not just fix them.",
+      metric: "99.9% uptime with AI-powered maintenance",
     },
     {
       icon: <Lightbulb className="h-8 w-8 text-primary" />,
-      title: "Custom Solutions",
-      description: "Bespoke software and AI models tailored to your unique business challenges.",
-      metric: "100+ solutions delivered",
+      title: "AI-Native Applications",
+      description: "Purpose-built AI systems that become smarter with every interaction.",
+      metric: "ROI improvement of 300%+ within 12 months",
     },
     {
       icon: <BarChart3 className="h-8 w-8 text-primary" />,
@@ -45,9 +45,9 @@ export function BentoSection() {
     <section id="solutions" className="py-24 bg-black">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-thin tracking-tight sm:text-4xl md:text-5xl mb-4">Our Business Solutions</h2>
+          <h2 className="text-3xl font-thin tracking-tight sm:text-4xl md:text-5xl mb-4">AI Technology Stack</h2>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto">
-            We provide a comprehensive suite of AI and IT services to accelerate your growth.
+            Deploy AI agents that don't just automate—they learn, adapt, and transform how your business operates.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

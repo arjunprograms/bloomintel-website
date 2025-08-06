@@ -105,7 +105,7 @@ export function ContactForm({ onClose }: ContactFormProps) {
               />
             </button>
 
-            <CardTitle className="text-2xl font-thin">Book Your Free Consultation</CardTitle>
+            <CardTitle className="text-2xl font-thin">Book Your AI Strategy Session</CardTitle>
           </CardHeader>
 
           <CardContent>

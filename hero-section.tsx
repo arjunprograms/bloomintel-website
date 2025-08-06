@@ -463,18 +463,17 @@ export function HeroSection({ onBookConsultation }: HeroSectionProps) {
           <div className="space-y-4">
             <h1 className="text-4xl font-thin tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">BloomIntel</h1>
             <p className="text-xl font-light text-muted-foreground sm:text-2xl md:text-3xl">
-              AI Automation & IT Solutions for Every Business
+              We Build AI That Thinks Like You Do
             </p>
           </div>
 
           <p className="text-lg font-light text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Transform your business operations with cutting-edge AI automation, comprehensive IT support, and custom
-            software solutions designed to scale with your growth.
+            Transform complex business challenges into intelligent, autonomous systems that learn, adapt, and deliver results while you sleep.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" onClick={onBookConsultation} className="text-base font-light px-8 py-3">
-              Book Free Consultation
+              Book AI Strategy Session
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -483,7 +482,7 @@ export function HeroSection({ onBookConsultation }: HeroSectionProps) {
               onClick={scrollToSolutions}
               className="text-base font-light px-8 py-3 bg-transparent"
             >
-              View Solutions
+              See AI Demo
             </Button>
           </div>
 
