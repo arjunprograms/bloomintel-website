@@ -21,10 +21,10 @@ export function CTASection({ onBookConsultation }: CTASectionProps) {
           </Button>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="tel:9253530670"
+              href="tel:9092062727"
               className="text-base font-light text-muted-foreground hover:text-primary transition-colors"
             >
-              (925) 353-0670
+              909-206-2727
             </a>
           </div>
         </div>

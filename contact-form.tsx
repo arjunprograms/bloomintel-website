@@ -139,7 +139,7 @@ export function ContactForm({ onClose }: ContactFormProps) {
                     value={formData.phone}
                     onChange={handleChange}
                     className="bg-input/50 border-border/50 font-light"
-                    placeholder="(925) 353-0670"
+                    placeholder="909-206-2727"
                   />
                 </div>
               </div>
@@ -205,8 +205,8 @@ export function ContactForm({ onClose }: ContactFormProps) {
             <div className="mt-6 pt-6 border-t border-border/40">
               <p className="text-sm font-light text-muted-foreground text-center">
                 We typically respond within 24 hours. For urgent matters, call us at{" "}
-                <a href="tel:9253530670" className="text-primary hover:underline">
-                  (925) 353-0670
+                <a href="tel:9092062727" className="text-primary hover:underline">
+                  909-206-2727
                 </a>
               </p>
             </div>

@@ -104,11 +104,11 @@ export function FooterSection({ onBookConsultation }: FooterSectionProps) {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-sm font-light text-muted-foreground">bloomintelai@gmail.com</span>
+                <span className="text-sm font-light text-muted-foreground">business@bloomintel.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-sm font-light text-muted-foreground">(925) 353-0670</span>
+                <span className="text-sm font-light text-muted-foreground">909-206-2727</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-primary" />
