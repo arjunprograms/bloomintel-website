@@ -4,7 +4,6 @@ import { EmailTemplate } from "../../../components/email-template"
 
 // Make sure to set your RESEND_API_KEY in your environment variables
 const resend = new Resend(process.env.RESEND_API_KEY)
-const toEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "Bloomintelsolutions@gmail.com"
 
 export async function POST(request: Request) {
   try {
@@ -15,12 +14,15 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 })
     }
 
+    // Resolve destination email at request time so env changes are respected
+    const toEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "business@bloomintelai.com"
+
     const { data, error } = await resend.emails.send({
       from: "BloomIntel Inquiry <onboarding@resend.dev>", // Replace with your verified domain in production
       to: [toEmail],
       subject: `New Consultation Inquiry: ${subject}`,
       react: EmailTemplate({ email, phone, subject, message }),
-      reply_to: email,
+      replyTo: email,
     })
 
     if (error) {
