@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "Transform your business with AI automation, comprehensive IT support, and custom software solutions designed to scale with your growth.",
   generator: 'v0.dev',
   icons: {
-    icon: '/images/bloom-intel-logo.png',
-    shortcut: '/images/bloom-intel-logo.png',
-    apple: '/images/bloom-intel-logo.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon-32x32.png',
+    apple: '/apple-touch-icon.png',
   },
   verification: {
     google: 'HMRThg9tGm7oRKj-Klu1kQqW-9Ja_mL-jst9K58Cs4I'
