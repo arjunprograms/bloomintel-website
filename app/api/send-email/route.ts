@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     const toEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "business@bloomintelai.com"
 
     const { data, error } = await resend.emails.send({
-      from: "BloomIntel Inquiry <onboarding@resend.dev>", // Replace with your verified domain in production
+      from: "BloomIntel <inquiries@bloomintelai.com>",
       to: [toEmail],
       subject: `New Consultation Inquiry: ${subject}`,
       react: EmailTemplate({ email, phone, subject, message }),
@@ -27,13 +27,19 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error("Resend API Error:", error)
-      return NextResponse.json({ error: error.message || "Error sending email" }, { status: 500 })
+      return NextResponse.json(
+        { error: error.message || "Error sending email", errorRaw: JSON.stringify(error) },
+        { status: 500 }
+      )
     }
 
     return NextResponse.json({ message: "Email sent successfully!", data })
   } catch (error) {
     console.error("Server Error:", error)
     const errorMessage = error instanceof Error ? error.message : "Internal server error"
-    return NextResponse.json({ error: errorMessage }, { status: 500 })
+    return NextResponse.json(
+      { error: errorMessage, errorRaw: JSON.stringify(error) },
+      { status: 500 }
+    )
   }
 }
